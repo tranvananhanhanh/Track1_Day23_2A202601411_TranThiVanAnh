@@ -87,9 +87,9 @@
 * **Góc 2 — Depth / Efficiency:** `Straight-Through Processing (STP) Rate` — Tỷ lệ hóa đơn được AI tự động khớp 100% (Auto-matched) mà kế toán không cần chỉnh sửa thủ công bất kỳ dòng hàng nào ($\frac{\text{Auto-Matched Bills}}{\text{Total Processed Bills}}$).
 
 ### 3. North Star Metric (NSM)
-* **Tên chỉ số:** **Weekly High-Confidence Matched & Synced Bills (Số Hóa đơn Đối soát 3 Chiều Chuẩn xác được Đồng bộ Hàng tuần)**.
+* **Tên chỉ số:** **Weekly High-Confidence Matched and Synced Bills (Số Hóa đơn Đối soát 3 Chiều Chuẩn xác được Đồng bộ Hàng tuần)**.
 * **Công thức 3 thành phần:**
-  $$\text{NSM} = \text{Unit of Value (Hóa đơn đối soát 3 chiều thành công)} + \text{Quality Threshold (Không phát sinh sai lệch sau hạch toán \& Không bị void/revert trên Xero trong 30 ngày)} + \text{Frequency (Weekly)}$$
+  $$\text{NSM} = \text{Unit of Value (Hóa đơn đối soát 3 chiều thành công)} + \text{Quality Threshold (Không phát sinh sai lệch sau hạch toán và không bị void/revert trên Xero trong 30 ngày)} + \text{Frequency (Weekly)}$$
 * *Ý nghĩa:* Đo lường chính xác giá trị thực tế mà nền tảng mang lại cho phòng kế toán: số lượng chứng từ được xử lý tự động với độ chính xác tuyệt đối.
 
 ### 4. Leading Indicators (Chỉ số dẫn dắt)
